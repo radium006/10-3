@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    
+}
+/* @media (min-width: 481px) {  */
+    .nav-bar {
+        color: white;
+        background-color: gray;
+        padding: 20px;
+        word-spacing: 8px;
+        font-size: 17px;
+    }
+
+    .nav-bar a {
+        margin: 10px;
+    }
+    
+    .flex-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .phone-image{
+        background-image: url("iPhone-desktop.png");
+        background-repeat: no-repeat;
+        width :100%;
+        height :100%;
+    }
+    
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .nav-bar {
+        color: white;
+        background-color: gray;
+        padding: 20px;
+        /* word-spacing: 8px; */
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flex-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .phone-image{
+        background-image: url("hero_vertical_startframe_small_2x.jpg");
+        /* background-color: azure; */
+        background-repeat: no-repeat;
+        
+        height :100%;
+    }
+}
+
+
